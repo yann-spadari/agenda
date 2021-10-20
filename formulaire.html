@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    
+    <h1>Insérer un évènement</h1>
+
+    <form id="form_event" action="" method="post">
+        <div>
+            <label for="titre">Insérez un titre :</label>
+            <input type="titre" id="titre" name="titre" placeholder="Insérer un titre" required>
+        </div>
+        <div>
+            <label for="date">Date :</label>
+            <input type="date" id="date" name="date">
+            </div>
+            <div>
+        <div>
+        <label for="choice_event">Choisir une catégorie d'évènement :</label>
+        <select name="choice_event" id="choice_event" required>
+        <option value="" disabled selected hidden>Choisir une catégorie</option>
+        <option value="repas">Repas</option>
+        <option value="travail">Travail</option>
+        <option value="loisir">Loisir</option>
+        <option value="autre">Autre</option>
+        </select>
+        </div>
+        <div>
+        <label for="description">Description de l'évenement :</label>
+        <textarea id="description" name="description" placeholder="Insérer une description..." required></textarea>
+        </div>
+        <div>
+        <button type="submit">Insérer le nouvel évènement</button>
+        </div>
+        </form>
+        </div>
+
+        <strong><a class="agenda_return" href="agenda.html">Retourner à l'agenda</a></strong>
+
+</body>
+</html>

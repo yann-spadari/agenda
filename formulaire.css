@@ -1,0 +1,71 @@
+h1 {
+    font-family: Montserrat, "sans-serif";
+    text-align: center;
+}
+
+body {
+    background: #59DEC7;
+    font-family: Montserrat, "sans-serif";
+    display: block;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+      
+    form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+    }
+     
+    form div {
+    background: #59DEC7;
+    border: none;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    }
+    
+    form input {
+    height: 50px;
+    padding-left: 10px
+    }
+
+    form select {
+        height: 50px;
+        padding-left: 10px
+    }
+     
+    form textarea {
+    height: 60px;
+    padding: 15px 0px 0px 10px;
+    font-family: Montserrat, "sans-serif";
+    color: black;
+    }
+  
+    form select option {
+    background: white;
+    color: #303030;
+    }
+    
+    form div:last-child {
+    align-items:center;
+    margin-top: 20px;
+    }
+    
+    form button {
+    width: 400px;  
+    height: 70px;
+    font-size: 22px;
+    }
+
+    .agenda_return{
+    text-decoration: none;
+    font-family: Montserrat, "sans-serif";
+    color: black;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    }
